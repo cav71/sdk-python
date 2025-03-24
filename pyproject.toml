@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "authorizenet"
+
+version = "1.1.6"
+
+
+description = "Authorize.Net Python SDK"
+readme = "DESCRIPTION.rst"
+license = "LicenseRef-Proprietary"
+license-files = [
+    "LICENSE.txt",
+]
+
+
+authors = [
+  { name = "Authorize.Net Developer", email = "developer@authorize.net" },
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+
+keywords = [
+    "authorizenet",
+    "authorize.net",
+    "payment",
+    "ecommerce",
+]
+dependencies = [
+    "PyXB-X",
+    "lxml==4.*",
+    "requests==2.*",
+]
