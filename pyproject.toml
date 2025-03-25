@@ -5,8 +5,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "authorizenet"
-
 version = "1.1.6"
+requires-python = ">=3.11"
 
 
 description = "Authorize.Net Python SDK"
@@ -41,6 +41,6 @@ keywords = [
 ]
 dependencies = [
     "PyXB-X",
-    "lxml==4.*",
+    "lxml==5.*",
     "requests==2.*",
 ]
